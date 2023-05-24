@@ -1,0 +1,84 @@
+.content-box {
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    width: 358px;
+    height: 228px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 14px;
+  }
+  
+  .heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course {
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
+  .referral-amount {
+    font-size: 18px;
+    padding: 25px 0;
+    display: inline-block;
+
+  }
+  .amount {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 799px) {
+    .header {
+      align-items: flex-start;
+    }
+  
+    .name {
+      margin-bottom: 5px;
+    }
+    .content-box{
+        width: 100vw;
+
+    }
+ 
+  }
+  

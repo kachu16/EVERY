@@ -1,0 +1,40 @@
+.desc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+}
+.icon-with-heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: aqua;
+    height: 200px;
+    width: 400px;
+    margin: 10px 15px;
+    padding: 20px;
+  }
+  
+  .icon-container {
+    width: 48px;
+    height: 48px;
+    background-color: gray;
+    border-radius: 50%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #888;
+  }
+  

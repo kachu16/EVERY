@@ -1,0 +1,32 @@
+import React from 'react';
+import './withdraw.css';
+
+const Withdraw = () => {
+return (
+<div className="withdraw-box">
+  <div className="row">
+    <div className="column">
+      <p className="label">Referral Earning</p>
+      <p className="value">₹ 2,500</p>
+    </div>
+    <div className="column">
+      <p className="label">Total Referral</p>
+      <p className="value">7</p>
+    </div>
+    <div className="column">
+      <p className="label">Wallet Balance</p>
+      <p className="value">₹ 500</p>
+    </div>
+  </div>
+  <div className="row">
+    <button className="withdraw-button">Withdraw Application</button>
+  </div>
+</div>
+);
+};
+
+export default Withdraw;
+
+create a Withdraw responsive component in react in which a box is having width 486px
+having first row with a another component having "referral earning" and in next values "₹ 2,500" and in next we have a
+button at centre with text "withdraw application"
